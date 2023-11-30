@@ -1,0 +1,6 @@
+@import 'src/styles/typography';
+@import 'src/styles/colors';
+
+.toaster {
+  @include p-regular-p1;
+}

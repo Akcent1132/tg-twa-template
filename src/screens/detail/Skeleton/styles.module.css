@@ -1,0 +1,26 @@
+.cover {
+    position: relative;
+    z-index: 1;
+
+    height: 100vw;
+    margin-top: 1px;
+
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.image {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.button-desc {
+    height: 38px;
+    font-size: 13px;
+    line-height: 28px;
+    color: var(--tg-theme-text-color);
+}

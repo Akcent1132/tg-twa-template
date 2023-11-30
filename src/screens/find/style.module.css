@@ -1,0 +1,126 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color:  var(--tg-theme-bg-color);
+}
+.panel-item {
+    display: flex;
+    flex-direction: row;
+    
+}
+.card {
+    display: flex;
+
+    text-decoration: none;
+}
+
+.title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    white-space: wrap;
+    
+    margin-top: 3px;
+
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    word-break: break-word;
+
+    color: var(--tg-theme-text-color);
+}
+.emptyTitle {
+    text-align: center;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    white-space: wrap;
+    color: var(--tg-theme-text-color);
+}
+.annotation {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+    font-size: 12px;
+    line-height: 16px;
+
+    color: var(--tg-theme-hint-color);
+}
+
+.image-wrapper {
+    position: relative;
+
+    overflow: hidden;
+    flex: none;
+
+    width: 152px;
+    height: 100px;
+    margin-right: 12px;
+
+    border-radius: 8px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, .2);
+}
+
+.image,
+.preview {
+    display: block;
+    width: 152px;
+    height: 100px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.preview {
+    background: #eaeaea;
+}
+.container {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: -26px; 
+    padding: 3px 14px 30px;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+.button {
+    background: var(--tg-theme-button-color);
+	color: var(--tg-theme-button-text-color);
+	padding: 10px;
+    margin-top: 6px;
+	width: -webkit-fill-available;
+    height: min-content;
+    border-radius: 8px;
+    border-width: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.svg-watchlist {
+      stroke-width:'1.5';
+        stroke-linecap:'round';
+        stroke-linejoin:'round';
+}
+.mainTitle {
+    color: var(--tg-theme-text-color);
+    text-align: center;
+    margin-bottom: 0;
+}

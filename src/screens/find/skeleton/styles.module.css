@@ -1,0 +1,40 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color:  var(--tg-theme-bg-color);
+   
+}
+.panel-item {
+    display: flex;
+    flex-direction: row;  
+     justify-content: center; 
+}
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+    flex: none;
+    width: 152px;
+    height: 100px;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+.annotation {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+    font-size: 12px;
+    line-height: 16px;
+}
+.text {
+   position: relative;
+   margin-top: 4px;
+    overflow: hidden;
+    flex: none;
+    width: 152px;
+    height: 23px;
+    margin-right: 12px;
+    border-radius: 8px;
+}
